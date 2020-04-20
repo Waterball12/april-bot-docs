@@ -1,0 +1,82 @@
+# Project information
+site_name: April Docs
+site_url: 'https://aprilbot.me'
+site_author: Waterball#0615
+site_description: >-
+  Documentation with tutorial and examples on how to configure and use April Bot
+
+# Copyright
+copyright: >-
+  &copy; 2020, April Bot. All rights reserved.
+
+theme:
+  name: material
+  favicon: favicon.ico
+
+  language: en
+
+  features:
+    - tabs
+  palette:
+    primary: cyan
+    accent: indigo
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      locale: en
+      type: timeago
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+
+
+extra_css:
+  - /assets/css/extra.css
+
+extra:
+  manifest: manifest.json
+
+  # Social
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discordapp.com/invite/UKPKS4T
+
+#Navigation
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
