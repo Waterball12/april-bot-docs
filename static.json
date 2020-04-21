@@ -1,0 +1,6 @@
+{
+  "root": "site/",
+  "canonical_host": "${HOST}",
+  "clean_urls": true,
+
+}
