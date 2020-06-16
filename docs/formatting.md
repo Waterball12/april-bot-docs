@@ -42,13 +42,18 @@ All tags use curly brackets between the key so always make sure to use them, and
 | \{user\.joined\.date\}  | Date of when user joined                     | 17\.06\.2019                                                                                  |
 | \{user\.joined\.ago\}   | Date/time ago of when user joined            | 10 days ago                                                                                   |
 | \{user\.joined\.time\}  | Time of when user joined                     | 13:12                                                                                         |
+| \{user\.level\}         | User level in the guild                      | 2                                                                                             |
+| \{user\.xp\}            | User xp of the current level                 | 300                                                                                           |
+| \{user\.nextLevel\}     | User xp needed for the next level            | 100                                                                                           |
+| \{user\.totalXp\}       | User total xp                                | 600                                                                                           |
 
 ## Guild
 
 | Tag                       | Description                          | Example output                                                                            |
 |---------------------------|--------------------------------------|-------------------------------------------------------------------------------------------|
-| \{guild\}	                | The server name	                     | April Testing                                                                             |
-| \{memberCount\}	          | Members count	                       | 3                                                                                         |
+| \{guild\}	                | The server name	                   | April Testing                                                                             |
+| \{memberCount\}	        | Members count	                       | 3                                                                                         |
+| \{memberCount\.ordinal\}  | Members count 	                   | 3rd                                                                                         |
 | \{guild\.id\}	            | The id of the guild	                 | 590166822196609024                                                                        |
 | \{guild\.created\.date\}	 | Date of when guild has been created	 | 17\.06\.2019                                                                              |
 | \{guild\.created\.date\}	 | Date of when guild has been created	 | 17\.06\.2019                                                                              |
