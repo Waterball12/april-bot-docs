@@ -23,6 +23,7 @@ theme:
 # Plugins
 plugins:
   - search
+  - markdownextradata
   - git-revision-date-localized:
       locale: en
       type: timeago
@@ -36,7 +37,7 @@ extra_css:
 
 extra:
   manifest: manifest.json
-
+  website: https://aprilbot.me
   # Social
   social:
     - icon: fontawesome/brands/discord

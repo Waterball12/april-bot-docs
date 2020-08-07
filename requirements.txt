@@ -4,3 +4,4 @@ Pygments>=2.2
 pymdown-extensions>=4.11
 mkdocs-minify-plugin
 mkdocs-git-revision-date-localized-plugin
+mkdocs-markdownextradata-plugin
