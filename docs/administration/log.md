@@ -89,11 +89,3 @@ More about embed [here](../create-embed-message.md){:target="_blank"rel="noopene
 ![Log preview](../assets/images/log-embed-message.png)
 
 ![Log preview](../assets/images/log-embed-message-save.png)
-
-## Should I use embed message?
-This depend on the the size of you server, if your server receive a lot of events then
-we suggest you to use plain messages else if it receive only few events then use embed
-messages. Embed messages are heavy and can affect the loading of the channel. Finally,
-embed messages looks good on desktop, but not on mobile.
-
-![Log preview](../assets/images/log-message-preview.png)
