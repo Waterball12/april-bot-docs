@@ -1,6 +1,9 @@
 ---
-modified: 2020-04-16
+modified: 2020-12-22
 ---
+
+!!! danger
+  A new logging system has been released, this page will be updated soon!
 
 Ready to enable logs in your server and get powerful data to monitor your users? Logs
 allow you and users who can access log channel to know what happened while you were
