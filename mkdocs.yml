@@ -25,10 +25,10 @@ theme:
   palette:
     primary: cyan
     accent: indigo
-
 # Plugins
 plugins:
   - search
+  - markdownextradata
   - minify:
       minify_html: true
 
@@ -47,30 +47,38 @@ extra:
 #Navigation
 
 markdown_extensions:
-  - meta
   - markdown.extensions.admonition
+  - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
       guess_lang: false
+  - markdown.extensions.def_list
   - markdown.extensions.footnotes
+  - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
+  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
   - pymdownx.inlinehilite
+  - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: dockersamples
-      repo: 101-tutorial
+      user: squidfunk
+      repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.superfences
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - attr_list
 
 nav:
   - Welcome:
