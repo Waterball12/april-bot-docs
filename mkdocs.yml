@@ -5,6 +5,11 @@ site_author: Waterball#0615
 site_description: >-
   Documentation with tutorial and examples on how to configure and use April Bot
 
+# Repository
+repo_name: April docs
+repo_url: https://github.com/Waterball12/april-bot-docs
+edit_uri: ""
+
 # Copyright
 copyright: >-
   &copy; 2021, April Bot. All rights reserved.
@@ -16,7 +21,7 @@ theme:
   language: en
 
   features:
-    - tabs
+    - navigation.tabs
   palette:
     primary: cyan
     accent: indigo
@@ -81,3 +86,42 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+nav:
+  - Welcome:
+    - Welcome: index.md
+    - Change prefix: change-prefix.md
+    - Create embed message: create-embed-message.md
+    - Text Formatting: formatting.md
+    - Invite April: invite.md
+    - Login: login.md
+    - Select Guild: select-guild.md
+  - Administration:
+    - Autorole: administration/autorole.md
+    - Clear: administration/clear.md
+    - Custom command: administration/custom-command.md
+    - Leaver: administration/leaver.md
+    - Log: administration/log.md
+    - Reaction Role: administration/reactionrole.md
+    - Selfrole: administration/selfrole.md
+    - Welcome: administration/welcome.md
+  - Editor:
+    - Editor: editor/create-an-image.md
+    - Use custom background: editor/use-custom-background.md
+  - Errors:
+    - Common errors: errors/common.md
+    - Hierarchy: errors/hierarchy.md
+  - Protection:
+    - Automated actions: protection/automated-actions.md
+    - Message: protection/message.md
+    - Standalone: protection/standalone.md
+    - Filters:
+      - Caps: protection/filters/caps-protection.md
+      - Emoji: protection/filters/emoji-protection.md
+      - Invite: protection/filters/invite-protection.md
+      - Link: protection/filters/link-protection.md
+      - Mention: protection/filters/mention-protection.md
+      - Paragraph: protection/filters/paragraph-protection.md
+      - Spoiler: protection/filters/spoiler-protection.md
+      - Symbol: protection/filters/symbol-protection.md
+      - Toxicity: protection/filters/toxicity-protection.md
