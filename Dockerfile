@@ -9,4 +9,4 @@ EXPOSE 8000
 
 # Start development server by default
 ENTRYPOINT ["mkdocs"]
-CMD ["serve", "-a 0.0.0.0:$PORT"]
+CMD ["serve", "-a 127.0.0.1:$PORT"]
