@@ -1,4 +1,4 @@
-FROM python:3
+FROM squidfunk/mkdocs-material
 COPY ./ /
 WORKDIR /
 
