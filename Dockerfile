@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Start development server by default
 ENTRYPOINT ["mkdocs"]
-CMD ["serve"]
+CMD mkdocs serve -a 0.0.0.0:$PORT 
