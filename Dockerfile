@@ -5,8 +5,8 @@ WORKDIR /
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose MkDocs development server port
-EXPOSE 8000
+#EXPOSE 8000
 
 # Start development server by default
 ENTRYPOINT ["mkdocs"]
-CMD ["serve", "-a 127.0.0.1:$PORT"]
+CMD ["serve", "-a 0.0.0.0:$PORT"]
