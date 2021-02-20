@@ -25,14 +25,10 @@ theme:
   palette:
     primary: cyan
     accent: indigo
+
 # Plugins
 plugins:
   - search
-  - markdownextradata
-  - git-revision-date-localized:
-      locale: en
-      type: timeago
-      fallback_to_build_date: true
   - minify:
       minify_html: true
 
@@ -51,41 +47,30 @@ extra:
 #Navigation
 
 markdown_extensions:
+  - meta
   - markdown.extensions.admonition
-  - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
       guess_lang: false
-  - markdown.extensions.def_list
   - markdown.extensions.footnotes
-  - markdown.extensions.meta
   - markdown.extensions.toc:
       permalink: true
-  - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  # - pymdownx.highlight:
-  #     linenums_style: pymdownx-inline
   - pymdownx.inlinehilite
-  - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: dockersamples
+      repo: 101-tutorial
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      check_paths: true
   - pymdownx.superfences
-  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - attr_list
 
 nav:
   - Welcome:

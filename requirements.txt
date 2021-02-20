@@ -1,7 +1,5 @@
-mkdocs>=1
-mkdocs-material>=3
-Pygments>=2.2
-pymdown-extensions>=4.11
-mkdocs-minify-plugin
-mkdocs-git-revision-date-localized-plugin
-mkdocs-markdownextradata-plugin
+mkdocs==1.0.4
+mkdocs-material==4.6.3
+mkdocs-minify-plugin==0.2.3
+pygments==2.6.1
+pymdown-extensions==7.0
