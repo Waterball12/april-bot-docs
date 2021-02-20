@@ -1,0 +1,9 @@
+# Python Environments
+.env
+
+# Build
+.site
+
+# IDE
+.idea
+.vscode
