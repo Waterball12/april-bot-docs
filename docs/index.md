@@ -124,5 +124,3 @@ about your server, more over there are some utility such as level module.
 
 - **Level** module contains commands that help you setup a Leveling system on your guild and easily engage
 your users.
-
-# test
