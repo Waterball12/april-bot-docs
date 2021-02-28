@@ -54,11 +54,11 @@ All tags use curly brackets between the key so always make sure to use them, and
 | \{guild\}	                | The server name	                   | April Testing                                                                             |
 | \{memberCount\}	        | Members count	                       | 3                                                                                         |
 | \{memberCount\.ordinal\}  | Members count 	                   | 3rd                                                                                         |
-| \{guild\.id\}	            | The id of the guild	                 | 590166822196609024                                                                        |
-| \{guild\.created\.date\}	 | Date of when guild has been created	 | 17\.06\.2019                                                                              |
-| \{guild\.created\.date\}	 | Date of when guild has been created	 | 17\.06\.2019                                                                              |
-| \{guild\.created\.time\}	 | Time of when guild has been created	 | 15:40                                                                                     |
-| \{guild\.icon\}	          | User activity	                       | https/cdn\.discordapp\.com/icons/321302816465485834/038225fd41246e93f6986fd23337ceb3\.jpg |
+| \{guild\.id\}	            | The id of the guild	               | 590166822196609024                                                                        |
+| \{guild\.created\.date\}	| Date of when guild has been created  | 17\.06\.2019                                                                              |
+| \{guild\.created\.date\}	| Date of when guild has been created  | 17\.06\.2019                                                                              |
+| \{guild\.created\.time\}	| Time of when guild has been created  | 15:40                                                                                     |
+| \{guild\.icon\}	        | User activity	                       | https/cdn\.discordapp\.com/icons/321302816465485834/038225fd41246e93f6986fd23337ceb3\.jpg |
 
 ## Channel
 
