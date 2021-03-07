@@ -83,23 +83,22 @@ The below tags are special tags that can be used only on logs messages
 
 | Tag                              | Description                | Example output    |
 |----------------------------------|----------------------------|-------------------|
-| \{before\.user\}	                | User username	             | Waterball         |
-| \{before\.user\.discriminator\}	 | Discriminator of the user	 | 0615              |
-| \{before\.user\.nickname\}	      | Nickname of the user	      | Water nick        |
-| \{before\.user\.fullname\}	      | Full name of the user	     | Waterball\#0615   |
-| \{before\.user\.fullname\}	      | Full name of the user	     | Waterball\#0615   |
-| \{before\.user\.activity\}	      | The activity of the user	  | League of legends |
+| \{before\.user\}	               | User username	            | Waterball         |
+| \{before\.user\.discriminator\}  | Discriminator of the user	| 0615              |
+| \{before\.user\.nickname\}	   | Nickname of the user	    | Water nick        |
+| \{before\.user\.fullname\}	   | Full name of the user	    | Waterball\#0615   |
+| \{before\.user\.activity\}	   | The activity of the user	| League of legends |
 
 ### After user
 
 | Tag                             | Description                | Example output                                                                                |
 |---------------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
-| \{after\.user\}	                | User username	             | Water after                                                                                   |
-| \{after\.user\.discriminator\}	 | Discriminator of the user	 | 0615                                                                                          |
-| \{after\.user\.nickname\}	      | Nickname of the user	      | Water nick                                                                                    |
-| \{after\.user\.avatar\}	        | User avatar url	           | https://cdn\.discordapp\.com/avatars/195568671274434560/61a8612880d214e484cfe9756a724266\.png |
-| \{after\.user\.fullname\}	      | Full name of the user	     | Waterball\#0615                                                                               |
-| \{after\.user\.activity\}	      | The activity of the user	  | League of legends                                                                             |
+| \{after\.user\}	              | User username	           | Water after                                                                                   |
+| \{after\.user\.discriminator\}  | Discriminator of the user  | 0615                                                                                          |
+| \{after\.user\.nickname\}	      | Nickname of the user	   | Water nick                                                                                    |
+| \{after\.user\.avatar\}	      | User avatar url	           | https://cdn\.discordapp\.com/avatars/195568671274434560/61a8612880d214e484cfe9756a724266\.png |
+| \{after\.user\.fullname\}	      | Full name of the user	   | Waterball\#0615                                                                               |
+| \{after\.user\.activity\}	      | The activity of the user   | League of legends                                                                             |
 
 ### Before channel
 
