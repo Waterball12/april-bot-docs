@@ -215,3 +215,29 @@ Include all tags from [guild](#guild) and [channel](#channel)
 
 Include all tags from [guild](#guild), [channel](#channel),
  [before channel](#before-channel) and [after channel](#after-channel)
+
+### Twitch
+
+| Tag                        | Description                       | Example output       |
+|----------------------------|-----------------------------------|----------------------|
+| \{stream\.channel\}	     | Channel name	                     | April bo             |
+| \{stream\.avatarUrl\}	     | Profile picture URL	             | Avatar url           |
+| \{stream\.url\}	         | Link to the channel	             | https://twitch.tv... |
+| \{stream\.viewerCount\}	 | Current viewers count	         | 4242                 |
+| \{stream\.started.ago\}	 | Start time ago	                 | 57 seconds ago       |
+| \{stream\.type\}	         | Stream type	                     | Live                 |
+| \{stream\.title\}	         | Title of the stream	             | My stream title      |
+| \{stream\.preview\}	     | Preview of the stream	         | Preview url          |
+| \{stream\.length\}	     | Stream duration (offline message) | 6h                   |
+| \{stream\.game\}	         | Game being played	             | League of Legends    |
+
+
+### YouTube
+
+| Tag                        | Description                       | Example output       |
+|----------------------------|-----------------------------------|----------------------|
+| \{stream\.channel.name\}   | Title of the stream	             | April bot            |
+| \{stream\.channel\}	     | Channel id	                     | UC...                |
+| \{stream\.url\}	         | Link to the channel	             | youtube.com/...      |
+| \{stream\.started.ago\}	 | Publish/release date	             | 57 seconds ago       |
+| \{stream\.title\}	         | video/live/premiere title         | My New Video         |
