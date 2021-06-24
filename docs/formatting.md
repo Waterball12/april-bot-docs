@@ -220,7 +220,7 @@ Include all tags from [guild](#guild), [channel](#channel),
 
 | Tag                        | Description                       | Example output       |
 |----------------------------|-----------------------------------|----------------------|
-| \{stream\.channel\}	     | Channel name	                     | April bo             |
+| \{stream\.channel\}	     | Channel name	                     | April bot             |
 | \{stream\.avatarUrl\}	     | Profile picture URL	             | Avatar url           |
 | \{stream\.url\}	         | Link to the channel	             | https://twitch.tv... |
 | \{stream\.viewerCount\}	 | Current viewers count	         | 4242                 |
