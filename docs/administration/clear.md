@@ -1,12 +1,12 @@
 ---
-modified: 2020-04-16
+modified: 2021-10-30
 ---
 
 Clear service allows you to best remove messages in a lot of ways such as:
 
 ## Clear message
-The simple way of removing messages without any regardless is by using `!Clear message [Amout]` command
-that will delete the amount typed messages. e.g. `!Clear message 50`
+The simple way of removing messages without any regardless is by using `!Clear message [Amount]` command
+which will delete the amount of messages given. e.g. `!Clear message 50`
 
 ## Remove from a determinate user
 Do you have a user that has been spammed a lot lately and you would like to delete only its
@@ -33,7 +33,7 @@ e.g. `!Clear bots 50`
 
 ## Remove messages with embed
 Did another naughty bot or a selfbot user just sent a lot of embeds? You should
-definitely clear them by using `!Clear embeds [Amout]` where amount is the number of the messages to delete.
+definitely clear them by using `!Clear embeds [Amount]` where amount is the number of the messages to delete.
 e.g. `!Clear embeds 50`
 
 ## Remove messages that starts with a determinate characters
@@ -48,7 +48,7 @@ Here `!Clear endswith  [Text] [Amount]` command to best serve you to clear messa
 that ends with a determinate characters
 e.g. `!Clear endswith dog 50`
 
-**For long text use double quotes** e.g. `!Clear endswith  "my naughty dog" 50`
+**For long text use double quotes (or if it contains spaces) ** e.g. `!Clear endswith  "my naughty dog" 50`
 
 ## Remove messages that match a determinate pattern
 Did someone just rage quit in chat because was playing hardcore mode and just died?
@@ -72,7 +72,7 @@ e.g. `!clear userid 195568671274434560 50`
 
 ## Remove messages containing links
 Did you shared a lot of links and now you would like to get rid of? Here
-`!Clear links [Amout]` command to remove all of them.
+`!Clear links [Amount]` command to remove all of them.
 e.g. `!clear links 100`
 
 ## Remove messages except the message id provided
