@@ -88,16 +88,6 @@ increases the engagement of your community.
 - **Meme** allow you to get random memes or create one
 - **Reactions** allow you to send random reactions gif
 
-### **Games**
-
-The games module contains all commands inherent to gaming and to easily get in-game information. Currently
-only few games are supported but more will be added in future releases. The below games are supported:
-
-- **Blade and soul**
-- **League of legends**
-- **Fortnite** 
-- **Apex Legends**
-
 ### **Protection**
  
  The protection module contains all commands that are meant to moderate your server in addition it contains
