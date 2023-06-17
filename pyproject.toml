@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "april-docs"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "april_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "1.1"
+mkdocs-material = "6.2.8"
+Pygments = "2.8.0"
+pymdown-extensions = "8.1.1"
+mkdocs-minify-plugin = "0.4.0"
+mkdocs-markdownextradata-plugin = "^0.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
